@@ -7,7 +7,7 @@ const MyBooking = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/mybooking')
+        fetch('https://haunted-labyrinth-83183.herokuapp.com/mybooking')
             .then(res => res.json())
             .then(data => setBooking(data))
     }, [])

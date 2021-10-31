@@ -12,7 +12,7 @@ const Information = () => {
 
 
     useEffect(() => {
-        const url = `http://localhost:5000/destinations/${serviceid}`
+        const url = `https://haunted-labyrinth-83183.herokuapp.com/destinations/${serviceid}`
         fetch(url)
             .then(res => res.json())
             .then(data => setUsers(data))
@@ -20,7 +20,7 @@ const Information = () => {
     }, []);
     const onSubmit = data => {
         console.log(data);
-        fetch('http://localhost:5000/bookings', {
+        fetch('https://haunted-labyrinth-83183.herokuapp.com/bookings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

@@ -6,7 +6,7 @@ const AddNewService = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = dat => {
         console.log(dat);
-        fetch('http://localhost:5000/destination', {
+        fetch('https://haunted-labyrinth-83183.herokuapp.com/destination', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -15,7 +15,8 @@ const AddNewService = () => {
         })
             .then(res => res.json)
             .then(data => {
-                console.log(data);
+                alert("Added Successfully")
+                reset()
             })
 
     };

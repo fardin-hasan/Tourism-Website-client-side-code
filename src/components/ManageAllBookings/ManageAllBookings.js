@@ -4,7 +4,7 @@ import './ManageAllBookings'
 const ManageAllBookings = () => {
     const [bookings, setBookings] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/manageAllBooking')
+        fetch('https://haunted-labyrinth-83183.herokuapp.com/manageAllBooking')
             .then(res => res.json())
             .then(data => setBookings(data))
     }, [])
@@ -12,7 +12,7 @@ const ManageAllBookings = () => {
     const handelDelete = id => {
         const proccess = window.confirm('Are You Sure')
         if (proccess) {
-            fetch(`http://localhost:5000/bookings/${id}`, {
+            fetch(`https://haunted-labyrinth-83183.herokuapp.com/bookings/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
