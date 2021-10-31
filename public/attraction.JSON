@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Norway",
+        "img": "https://www.dailyscandinavian.com/wp-content/uploads/2017/02/030217-norway-scaled.jpg",
+        "rating": 4.5,
+        "description": "Norway is a Scandinavian country encompassing mountains, glaciers and deep coastal fjords. "
+    },
+    {
+        "name": "New York",
+        "img": "https://media.istockphoto.com/photos/the-statue-of-liberty-with-the-one-world-trade-building-center-over-picture-id1169074379?k=20&m=1169074379&s=612x612&w=0&h=weuMjib73CU2dboPcjaiPr1bl5zk0YtviocdSka-ZeA=",
+        "rating": 4.5,
+        "description": "New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. "
+    },
+    {
+        "name": "Africa",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTabcOEbZJXrwuSkeWW2jLGbc1N_3KwX3Xfg&usqp=CAU",
+        "rating": 4.5,
+        "description": "Africa is the world's second-largest and second-most populous continent, after Asia in both cases."
+    },
+    {
+        "name": "Vietnam",
+        "img": "https://cdn2.wanderlust.co.uk/media/4672/articles-ha-long-bay-vietnam-dreamstime.jpg?anchor=center&mode=crop&width=1200&height=0&rnd=131481209460000000",
+        "rating": 4.5,
+        "description": "Vietnam is a Southeast Asian country known for its beaches, rivers, Buddhist pagodas and bustling cities."
+    },
+    {
+        "name": "Greenland",
+        "img": "https://images.unsplash.com/photo-1573995975633-faee0123f31f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JlZW5sYW5kfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+        "rating": 4.5,
+        "description": "Greenland is the world's largest island, located between the Arctic and Atlantic oceans, east of the Canadian Arctic."
+    },
+    {
+        "name": "France",
+        "img": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJhbmNlfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+        "rating": 4.5,
+        "description": " France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches. "
+    }
+]

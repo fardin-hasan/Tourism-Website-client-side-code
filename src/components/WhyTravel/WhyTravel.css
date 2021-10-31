@@ -1,0 +1,13 @@
+h1{
+    color: rgba(15, 17, 37, 0.925);
+}
+img{
+    width: 100%;
+    padding: 0px;
+    border-radius:10px 10px 0px 0px ;
+    
+   
+}
+.card-border{
+    border-radius: 10px 10px 10px 10px;
+}

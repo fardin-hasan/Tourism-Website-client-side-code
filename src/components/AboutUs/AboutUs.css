@@ -1,0 +1,16 @@
+.about-img{
+    
+        width: 80%;
+        height: 450px;
+        margin: 10px;
+       
+        background-color: rgb(247, 244, 224);
+       
+    
+    }
+   .review-img{
+       height: 150px;
+       width: 150px;
+      padding-top:8px;
+       margin: auto;
+   }
